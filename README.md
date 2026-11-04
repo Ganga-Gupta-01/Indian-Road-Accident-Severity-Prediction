@@ -200,23 +200,13 @@ using stratified sampling.
 
 # 🤖 Machine Learning Models
 
-The following models were trained and evaluated:
+The following model was trained and evaluated:
 
-### Logistic Regression
-
-A baseline classification model.
-
-### Decision Tree Classifier
-
-Used for rule-based classification.
 
 ### Random Forest Classifier
 
 Used to improve predictive performance using ensemble learning.
 
-### Voting Classifier
-
-The final ensemble model combining multiple classifiers.
 
 ---
 
@@ -225,9 +215,6 @@ The final ensemble model combining multiple classifiers.
 Model performance was evaluated using:
 
 - Accuracy Score
-- Precision
-- Recall
-- F1 Score
 - Classification Report
 - Confusion Matrix
 
@@ -263,7 +250,7 @@ INDIAN_ROAD_ACCIDENT_SEVERITY_PREDICTION/
 │   └── indian_roads_accidents_dataset.csv
 │
 ├── notebooks/
-│   └── road_accident_analysis.ipynb
+│   └── data_analysis.ipynb
 │
 ├── model/
 │   └── road_accident_model.pkl
