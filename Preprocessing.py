@@ -180,5 +180,5 @@ joblib.dump(
     compress=3
 )
 
-print("\n✅ Model Saved Successfully")
+print("\n Model Saved Successfully")
 print("Location: road_accident_model.pkl")
