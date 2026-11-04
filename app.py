@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load dataset and model
-df = pd.read_csv("data/indian_roads_accidents_dataset.csv")
-model = joblib.load("model/road_accident_model.pkl")
+df = pd.read_csv("indian_roads_accidents_dataset.csv")
+model = joblib.load("road_accident_model.pkl")
 
 st.set_page_config(
     page_title="Indian Road Accident Severity Predictor",
